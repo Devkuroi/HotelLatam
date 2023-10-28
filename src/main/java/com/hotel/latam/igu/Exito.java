@@ -20,7 +20,7 @@ public class Exito extends JDialog {
     private final JPanel contentPanel = new JPanel();
 
     public Exito() {
-        setIconImage(Toolkit.getDefaultToolkit().getImage(Exito.class.getResource("/imagenes/aH-40px.png")));
+        setIconImage(Toolkit.getDefaultToolkit().getImage(Exito.class.getResource("/Imagenes/aH-40px.png")));
         setBounds(100, 100, 394, 226);
         getContentPane().setLayout(new BorderLayout());
         contentPanel.setBackground(new Color(56, 56, 56));
@@ -31,7 +31,7 @@ public class Exito extends JDialog {
         contentPanel.setLayout(null);
         {
             JLabel lblNewLabel = new JLabel("");
-            lblNewLabel.setIcon(new ImageIcon(Exito.class.getResource("/imagenes/Ha-100px.png")));
+            lblNewLabel.setIcon(new ImageIcon(Exito.class.getResource("/Imagenes/Ha-100px.png")));
             lblNewLabel.setBounds(124, 10, 124, 100);
             contentPanel.add(lblNewLabel);
         }

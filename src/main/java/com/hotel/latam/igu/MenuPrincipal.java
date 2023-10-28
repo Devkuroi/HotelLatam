@@ -23,7 +23,7 @@ public class MenuPrincipal extends javax.swing.JFrame {
 	int xMouse, yMouse;
 
 	public MenuPrincipal() {
-		setIconImage(Toolkit.getDefaultToolkit().getImage(MenuPrincipal.class.getResource("/imagenes/cerrar-sesion 32-px.png")));
+		setIconImage(Toolkit.getDefaultToolkit().getImage(MenuPrincipal.class.getResource("/Imagenes/cerrar-sesion 32-px.png")));
 		setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);
 		setBounds(100, 100, 910, 537);
 		contentPane = new JPanel();
@@ -43,12 +43,12 @@ public class MenuPrincipal extends javax.swing.JFrame {
 		
 		JLabel imagenFondo = new JLabel("");
 		imagenFondo.setBounds(-50, 0, 732, 501);
-		imagenFondo.setIcon(new ImageIcon(MenuPrincipal.class.getResource("/imagenes/menu-img.png")));
+		imagenFondo.setIcon(new ImageIcon(MenuPrincipal.class.getResource("/Imagenes/menu-img.png")));
 		panel.add(imagenFondo);
 		
 		JLabel logo = new JLabel("");
 		logo.setBounds(722, 80, 150, 156);
-		logo.setIcon(new ImageIcon(MenuPrincipal.class.getResource("/imagenes/aH-150px.png")));
+		logo.setIcon(new ImageIcon(MenuPrincipal.class.getResource("/Imagenes/aH-150px.png")));
 		panel.add(logo);
 		
 		JPanel panel_1 = new JPanel();
@@ -121,8 +121,8 @@ public class MenuPrincipal extends javax.swing.JFrame {
 			@Override
 			public void mouseClicked(MouseEvent e) {
 				Login login = new Login();
-                                login.requestFocus();
 				login.setVisible(true);
+                                login.requestFocus();
 				dispose();
 			}
 		});
@@ -135,7 +135,7 @@ public class MenuPrincipal extends javax.swing.JFrame {
 		imagenLogin.setBounds(0, 0, 80, 70);
 		btnLogin.add(imagenLogin);
 		imagenLogin.setHorizontalAlignment(SwingConstants.CENTER);
-		imagenLogin.setIcon(new ImageIcon(MenuPrincipal.class.getResource("/imagenes/login.png")));
+		imagenLogin.setIcon(new ImageIcon(MenuPrincipal.class.getResource("/Imagenes/login.png")));
 		
 		JLabel lblTitulo = new JLabel("LOGIN");
 		lblTitulo.setBounds(754, 265, 83, 24);

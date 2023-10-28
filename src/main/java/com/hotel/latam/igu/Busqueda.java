@@ -40,7 +40,7 @@ public class Busqueda extends javax.swing.JFrame {
     int xMouse, yMouse;
 
     public Busqueda() {
-        setIconImage(Toolkit.getDefaultToolkit().getImage(Busqueda.class.getResource("/imagenes/lupa-1.png")));
+        setIconImage(Toolkit.getDefaultToolkit().getImage(Busqueda.class.getResource("/Imagenes/lupa-1.png")));
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setBounds(100, 100, 910, 571);
         contentPane = new JPanel();
@@ -99,7 +99,7 @@ public class Busqueda extends javax.swing.JFrame {
         }
         JScrollPane scroll_table = new JScrollPane(tbReservas);
         scroll_table.getViewport().setBackground(new Color(56, 56, 56));
-        panel.addTab("Reservas", new ImageIcon(Busqueda.class.getResource("/imagenes/reservado.png")), scroll_table, null);
+        panel.addTab("Reservas", new ImageIcon(Busqueda.class.getResource("/Imagenes/reservado.png")), scroll_table, null);
         scroll_table.setVisible(true);
 
         tbHuespedes = new JTable();
@@ -128,11 +128,11 @@ public class Busqueda extends javax.swing.JFrame {
         }
         JScrollPane scroll_tableHuespedes = new JScrollPane(tbHuespedes);
         scroll_tableHuespedes.getViewport().setBackground(new Color(56, 56, 56));
-        panel.addTab("Huéspedes", new ImageIcon(Busqueda.class.getResource("/imagenes/pessoas.png")), scroll_tableHuespedes, null);
+        panel.addTab("Huéspedes", new ImageIcon(Busqueda.class.getResource("/Imagenes/pessoas.png")), scroll_tableHuespedes, null);
         scroll_tableHuespedes.setVisible(true);
 
         JLabel lblNewLabel_2 = new JLabel("");
-        lblNewLabel_2.setIcon(new ImageIcon(Busqueda.class.getResource("/imagenes/Ha-100px.png")));
+        lblNewLabel_2.setIcon(new ImageIcon(Busqueda.class.getResource("/Imagenes/Ha-100px.png")));
         lblNewLabel_2.setBounds(36, 51, 124, 107);
         contentPane.add(lblNewLabel_2);
 

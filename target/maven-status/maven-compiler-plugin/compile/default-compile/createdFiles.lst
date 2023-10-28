@@ -1,7 +1,6 @@
 com\hotel\latam\igu\MenuPrincipal$2.class
 com\hotel\latam\igu\ReservasView$4.class
 com\hotel\latam\igu\Busqueda$1.class
-com\hotel\latam\HotelAlura$1.class
 com\hotel\latam\igu\Login$4.class
 com\hotel\latam\igu\Login.class
 com\hotel\latam\igu\Login$1.class
@@ -29,8 +28,8 @@ com\hotel\latam\persistencia\exceptions\PreexistingEntityException.class
 com\hotel\latam\igu\MenuUsuario$1.class
 com\hotel\latam\igu\Busqueda$6.class
 com\hotel\latam\igu\ReservasView$5.class
+com\hotel\latam\main\HotelAlura.class
 com\hotel\latam\persistencia\exceptions\NonexistentEntityException.class
-com\hotel\latam\HotelAlura.class
 com\hotel\latam\igu\RegistroHuesped$3.class
 com\hotel\latam\igu\MenuUsuario$4.class
 com\hotel\latam\igu\ReservasView$2.class

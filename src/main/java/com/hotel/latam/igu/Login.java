@@ -28,7 +28,7 @@ public class Login extends JFrame {
     private JLabel labelExit;
 
     public Login() {
-        setIconImage(Toolkit.getDefaultToolkit().getImage(Login.class.getResource("/imagenes/perfil-del-usuario.png")));
+        setIconImage(Toolkit.getDefaultToolkit().getImage(Login.class.getResource("/Imagenes/perfil-del-usuario.png")));
         setResizable(false);
         setUndecorated(true);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -196,7 +196,7 @@ public class Login extends JFrame {
 
         JLabel lblNewLabel_1 = new JLabel("");
         lblNewLabel_1.setHorizontalAlignment(SwingConstants.CENTER);
-        lblNewLabel_1.setIcon(new ImageIcon(Login.class.getResource("/Imagenes/lOGO-50PX.png")));
+        lblNewLabel_1.setIcon(new ImageIcon(Login.class.getResource("/Imagenes/LOGO-50PX.png")));
         lblNewLabel_1.setBounds(65, 65, 48, 59);
         panel.add(lblNewLabel_1);
 

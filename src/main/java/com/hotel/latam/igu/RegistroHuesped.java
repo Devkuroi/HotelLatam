@@ -41,7 +41,7 @@ public class RegistroHuesped extends JFrame {
 
     public RegistroHuesped(Reserva reserva) {
 
-        setIconImage(Toolkit.getDefaultToolkit().getImage(RegistroHuesped.class.getResource("/imagenes/disquete.png")));
+        setIconImage(Toolkit.getDefaultToolkit().getImage(RegistroHuesped.class.getResource("/Imagenes/disquete.png")));
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setBounds(100, 100, 910, 634);
         contentPane = new JPanel();
@@ -95,7 +95,7 @@ public class RegistroHuesped extends JFrame {
 
         txtFechaN = new JDateChooser();
         txtFechaN.setBounds(560, 278, 285, 36);
-        txtFechaN.getCalendarButton().setIcon(new ImageIcon(RegistroHuesped.class.getResource("/imagenes/icon-reservas.png")));
+        txtFechaN.getCalendarButton().setIcon(new ImageIcon(RegistroHuesped.class.getResource("/Imagenes/icon-reservas.png")));
         txtFechaN.getCalendarButton().setBackground(SystemColor.textHighlight);
         txtFechaN.setDateFormatString("yyyy-MM-dd");
         
@@ -109,7 +109,7 @@ public class RegistroHuesped extends JFrame {
         txtNacionalidad.setBackground(new Color(56, 56, 56));
         txtNacionalidad.setForeground(Color.WHITE);
         txtNacionalidad.setFont(new Font("Roboto", Font.PLAIN, 16));
-        txtNacionalidad.setModel(new DefaultComboBoxModel(new String[]{"Afganistan", "Alemania", "Árabia saudita", "Argentina", "Australia", "Belgica", "Bolivia", "Brasil", "Camboya", "Canada", "Chile", "China", "Colombia", "Corea", "Costa Rica", "Cuba", "danés-danesa", "Ecuador", "Egipto", "Salvador", "Escocia", "España", "Estados Unidos", "Estonia", "Etiopia", "Filipinas", "Finlandés", "Francia", "Gales", "Grecia", "Guatemala", "Haiti", "Paises Bajos", "Honduras", "Indonesia", "Reindo Unido", "iraquí-iraquí", "iraní-iraní", "Irlandia", "Israel", "Italia", "Japon", "Jordania", "laosiano-laosiana", "Letonia", "letonés-letonesa", "Malasia", "Marruecos", "Mexico", "Nicaragua", "Noruega", "neozelandés-neozelandesa", "Panama", "paraguay", "Peru", "Polonia", "portugal", "Puerto Rico", "Republica dominica", "Rumania", "Rusia", "Suecia", "Suiza", "Tailandia", "Taiwan", "Turquia", "Ucrania", "Uruguay", "Venezuela", "Vietnam"}));
+        txtNacionalidad.setModel(new DefaultComboBoxModel(new String[]{"Afganistan", "Alemania", "Árabia saudita", "Argentina", "Australia", "Belgica", "Bolivia", "Brasil", "Camboya", "Canada", "Chile", "China", "Colombia", "Corea", "Costa Rica", "Cuba", "danés-danesa", "Ecuador", "Egipto", "Salvador", "Escocia", "España", "Estados Unidos", "Estonia", "Etiopia", "Filipinas", "Finlandés", "Francia", "Gales", "Grecia", "Guatemala", "Haiti", "Paises Bajos", "Honduras", "Indonesia", "Reindo Unido", "Irak", "Iran", "Irlandia", "Israel", "Italia", "Japon", "Jordania", "Laos", "Letonia", "letonia", "Malasia", "Marruecos", "Mexico", "Nicaragua", "Noruega", "neozelandés-neozelandesa", "Panama", "paraguay", "Peru", "Polonia", "portugal", "Puerto Rico", "Republica dominica", "Rumania", "Rusia", "Suecia", "Suiza", "Tailandia", "Taiwan", "Turquia", "Ucrania", "Uruguay", "Venezuela", "Vietnam"}));
         txtNacionalidad.setUI(new CustomComboBoxUI());
         contentPane.add(txtNacionalidad);
 
@@ -262,12 +262,12 @@ public class RegistroHuesped extends JFrame {
         JLabel imagenFondo = new JLabel("");
         imagenFondo.setBounds(0, 121, 479, 502);
         panel.add(imagenFondo);
-        imagenFondo.setIcon(new ImageIcon(RegistroHuesped.class.getResource("/imagenes/registro.png")));
+        imagenFondo.setIcon(new ImageIcon(RegistroHuesped.class.getResource("/Imagenes/registro.png")));
 
         JLabel logo = new JLabel("");
         logo.setBounds(174, 39, 124, 107);
         panel.add(logo);
-        logo.setIcon(new ImageIcon(RegistroHuesped.class.getResource("/imagenes/Ha-100px.png")));
+        logo.setIcon(new ImageIcon(RegistroHuesped.class.getResource("/Imagenes/Ha-100px.png")));
 
     }
 
